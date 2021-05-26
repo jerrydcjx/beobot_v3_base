@@ -1,0 +1,28 @@
+<package format="2">
+  <name>beobot_v3_base</name>
+  <version>0.0.1</version>
+  <description>
+    Publishers and subscribers that use the parameter server, dynamic
+    reconfigure, timers, and custom messages. Examples for Python and C++ are
+    included.
+  </description>
+  <author>Jerry Dong</author>
+  <maintainer email="jerry_dong@yahoo.com">Jerry Dong</maintainer>
+  <license>BSD</license>
+  <url>https://github.com/jerrydcjx/boebot_v3_base</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <depend>dynamic_reconfigure</depend>
+  <depend>roscpp</depend>
+  <depend>rosgraph_msgs</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <exec_depend>rqt_console</exec_depend>
+  <exec_depend>rqt_reconfigure</exec_depend>
+
+  <test_depend>rostest</test_depend>
+</package>
